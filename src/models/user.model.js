@@ -31,7 +31,6 @@ const userSchema = new mongoose.Schema(
     },
     coverImage: {
       type: String, // cloudinary Url
-      required: true,
     },
     watchHistory: [
       {
@@ -45,7 +44,6 @@ const userSchema = new mongoose.Schema(
     },
     refreshToken: {
       type: String,
-      required: true,
     },
   },
   { timestamps: true }
